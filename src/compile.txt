@@ -1,0 +1,3 @@
+@echo off
+
+cl gs_rasterize.c -Iv:\ghostpdl\psi -Iv:\ghostpdl\base v:\ghostpdl\debugbin\gsdll64.lib /nologo /Z7 /link /DLL /OUT:gsrasterize.dll
